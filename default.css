@@ -1,0 +1,156 @@
+body, html, button {
+    height: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+    color: black;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.para {
+    width: 30%;
+    margin: 15px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.parallax {
+    background-image: url('images/camille-orgel-58391-unsplash.jpg');
+    height: 100%;
+    opacity: 0.80;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('images/csabi-elter-70476-unsplash.jpg');
+    min-height: 35%; 
+    opacity: 0.9;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-ac, .parallax-cc, .parallax-mc {
+    min-height: 25%; 
+    opacity: 0.9;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.parallax-ac {
+    background-image: url('images/amador-loureiro-779-unsplash.jpg');
+    position: relative;
+}
+
+.parallax-cc {
+    background-image: url('images/raphael-schaller-88040-unsplash.jpg');
+    position: relative;
+}
+
+.parallax-mc {
+    background-image: url('images/bruno-martins-25865-unsplash.jpg');
+    position: relative;
+}
+
+.title {
+position: absolute;
+width: 100%;
+top: 50%;
+}
+
+.title-ac, .title-cc, .title-mc {
+    position: absolute;
+    width: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border, .border-design {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.middle {
+//    padding: 50px 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer {
+    margin-left: 25px;
+    margin-right: 25px;
+//    position: relative;
+//    top: 50%;
+}
+
+.footer, .content-cc {
+//    height: 100vh;
+}
+
+hr.style1{
+border-top: 1px solid white;
+}
+
+.button {
+    background: none;
+    border: 3px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+	margin: 20px;
+    font-size: 12pt;
+}
+
+.button:hover {
+    background: black;
+    color:white;
+}
+
+textarea {
+    border-color: black;
+    resize: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.content {
+    padding: 5px;
+}
